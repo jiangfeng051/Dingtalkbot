@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from config import settings
 
-from src.Handler import login,index,logout,harbor
+from src.Handler import index
 
 # class LoginHandler(tornado.web.RequestHandler):
 #     def get(self):
@@ -26,15 +26,10 @@ from src.Handler import login,index,logout,harbor
 # }
 
 application = tornado.web.Application([
-    (r'/login',login.LoginHandler),
     (r'/index',index.IndexHandler),
-    (r'/logout', logout.LogoutHandler),
-    (r'/harbor',harbor.HarborHandler),
-    (r'/listdeploy',index.ListDeployHandler),
-    (r'/rollback',index.RollbackHandler),
 ],**settings.settings)
 
 
 if __name__ == '__main__':
-    application.listen(8081)
+    application.listen(8888)
     tornado.ioloop.IOLoop.instance().start()
