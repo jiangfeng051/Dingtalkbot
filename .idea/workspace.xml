@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f11c3e-63c9-44c5-825d-038f7a8f97be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/dingbot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handler/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handler/index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Dingtalkbot$bin.coverage" NAME="bin Coverage Results" MODIFIED="1554368974187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
     <SUITE FILE_PATH="coverage/Dingtalkbot$test.coverage" NAME="test Coverage Results" MODIFIED="1554359205970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Dingtalkbot$dingbot.coverage" NAME="dingbot Coverage Results" MODIFIED="1554280274679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Dingtalkbot$service.coverage" NAME="service Coverage Results" MODIFIED="1554367548866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="service.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+            <state relative-caret-position="394">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding>
                 <element signature="e#77#95#0" expanded="true" />
               </folding>
@@ -34,13 +32,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Handler/index.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1023">
               <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#77#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/bin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="e#76#85#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,9 +119,10 @@
         <option value="$PROJECT_DIR$/config/settings.py" />
         <option value="$PROJECT_DIR$/utils/connectdb.py" />
         <option value="$PROJECT_DIR$/utils/dingbot.py" />
-        <option value="$PROJECT_DIR$/src/service.py" />
         <option value="$PROJECT_DIR$/utils/test.py" />
         <option value="$PROJECT_DIR$/src/Handler/index.py" />
+        <option value="$PROJECT_DIR$/src/service.py" />
+        <option value="$PROJECT_DIR$/bin/bin.py" />
       </list>
     </option>
   </component>
@@ -199,7 +210,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.bin">
+    <configuration name="bin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Dingtalkbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/bin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="dingbot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dingtalkbot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,9 +291,11 @@
       <item itemvalue="Python.dingbot" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.service" />
+      <item itemvalue="Python.bin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bin" />
         <item itemvalue="Python.service" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.dingbot" />
@@ -389,22 +421,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-          <folding>
-            <element signature="e#77#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Handler/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
           <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#77#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <element signature="e#77#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#76#85#0" expanded="true" />
           </folding>
         </state>
       </provider>
